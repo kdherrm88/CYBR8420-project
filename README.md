@@ -4,7 +4,7 @@
 ### **Channel Four News Team : https://github.com/Deeds101/CYBR8420-project.git**
 
 #
-# Team: [Discord LInk](https://discord.gg/eVmCJA64)
+# Team: [Discord Link](https://discord.gg/eVmCJA64)
 - Ryan Thompson - Team Lead
 - Joseph Diedrichsen - Technical Analyst
 - Kendra Herrmann - Scribe/Documentation
@@ -29,11 +29,28 @@
 
 **Motivations:**  MSP software is vital to hundreds of small to medium sized companies in order to help them manage a varied client base that contains a myriad of hardware, software, and policies. ITFlow is a software that aims to compile company passwords, documentation, and financing information all in one portal to make MSP management more accessible. This kind of software is of vital importance to an MSP and is one of their most targeted assets by threat actors. In addition to the software being a target and source of risk for an MSP, MSPs themselves are a watering hole for attackers and adversaries since they hold the "keys to the kingdom" of many other targets. If an MSP is compromised, it can be assumed that each of their clients will be compromised, as well. Unfortunately, not every MSP is able afford security-rich software such as ITGlue to help them maintain or improve their security posture. ITFlow is an open-source solution for smaller, growing businesses to assist them in managing and securing their clients. Our team memeber, Corey Mekelburg, works at an MSP professionally and has a good understanding of how they work and what kind of security they need. We hope this will be an excellant contribution to Quality Assurance of the open source project.
 
-**Description of the Software:**
+**Security** 
 
 **Licensing and Contributor Agreements:**
 
-**Security History:**
+**Security History:** This open-source project has a robust reporting feature that will make it easy to notify the owners that there is a security incident.
+
+ITFlow has had two separate security advisories that the public is allowed to see.
+March 5, 2023: Persistent XSS 
+
+Impact:
+ITFlow (Beta commits prior to 75da31d) is affected by persistent XSS vulnerabilities.
+An authenticated application user could execute arbitrary web scripts or HTML in the browser context of other application users by injecting a crafted payload.
+
+May 12, 2023: Authenticated users can craft a POST request to delete any file on the webserver
+
+Impact:
+-  Loss of availability
+- Catastrophic consequences if the webserver administrator is lazy and has www-data in the sudoers file
+- https://demo.itflow.org/ could potentially be taken down along with any other websites in the web directory
+- Security breach in division of account roles (for example, the Expenses page and expenses-related functions should not be available to technicians)
+
+
 
 **Reflection:**
 The main point of contention amongst our team was finding a scheduled time to work on the project. We have a diverse background of students working on this project - parents, full-time employees, coaches, and hobbyists. This diversity provides for an enriching experience, however, it also required more effort to be put into the planning phase of our project. It should be a testament to our teamwork that we were able to successfully find a timeslot for us to work together in a continued fashion. It is to be expected that scheduling may become an issue again in the future, as plans change, but we as a group have decided that we will need to be lenient and flexible in order to reach our deadlines. 
@@ -43,8 +60,8 @@ The main point of contention amongst our team was finding a scheduled time to wo
 - [x] Name of an open-source software project your team has chosen to work on. From here on, it will be referred to as “software”.
 - [x] Describe a hypothetical operational environment (e.g., home, office, enterprise, bank, government, etc.) where the users will expect security functionality from the software.
     - [ ] Provide a diagram that identifies the systems engineering view of the software in the hypothetical environment. **Still Need**
-    - [ ] What are the threats perceived by users of the software in its intended operational environment? (If there are none or very few, then re-evaluate your project selection.) **Still Need**
-    - [ ] Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice).**Still Need**
+    - [x] What are the threats perceived by users of the software in its intended operational environment? (If there are none or very few, then re-evaluate your project selection.)
+    - [x] Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice).
 - [x] Team motivation for selecting this project.
 - [ ] Open-source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc. You can get some of this information from Github or OpenHubLinks to an external site.)**Still Need**
 - [ ] Discuss License, procedures for making contributions, and contributor agreements**Still Need**

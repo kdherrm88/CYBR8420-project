@@ -31,7 +31,12 @@
 
 **Security** 
 
+
+**Open Source Project Description**
+ITFlow is a software that consolidates common MSP needs into one system; including IT Documentation, ticketing, and billing. ITFlow is self-hosted and includes the ability to be accessed via a web browser. Currently, ITFLow is in Beta and has had 13 contributors to help build the project out in PHP, CSS, and JavaScript. Edits have been committed to GitHub for this project within the last week (week of 9-8-2023). Documentation for ITFlow can be found on it's public GitHub, referenced above. 
+
 **Licensing and Contributor Agreements:**
+ITFlow is distributed "as is" under the GPL License, WITHOUT WARRANTY OF ANY KIND.
 
 **Security History:** This open-source project has a robust reporting feature that will make it easy to notify the owners that there is a security incident.
 
@@ -63,7 +68,7 @@ The main point of contention amongst our team was finding a scheduled time to wo
     - [x] What are the threats perceived by users of the software in its intended operational environment? (If there are none or very few, then re-evaluate your project selection.)
     - [x] Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice).
 - [x] Team motivation for selecting this project.
-- [ ] Open-source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc. You can get some of this information from Github or OpenHubLinks to an external site.)**Still Need**
+- [x] Open-source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc. You can get some of this information from Github or OpenHubLinks to an external site.)
 - [ ] Discuss License, procedures for making contributions, and contributor agreements**Still Need**
 - [ ] A brief summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ).**Still Need**
 - [ ] Include a reflection on your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward? **Still Need**
